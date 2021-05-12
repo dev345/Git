@@ -10,7 +10,7 @@ def text():
     speech=gTTS(text=text,lang="en")
     speech.save(r'C:\Users\91889\Desktop\speech.mp3')
     playsound(r'C:\Users\91889\Desktop\speech.mp3')
-label=tk.Label(q,text="Enter Here :")
+label=tk.Label(q,text="Enter Here:")
 label.grid(row=0,column=0)
 entry=tk.Entry(q)
 entry.grid(row=1,column=1)
